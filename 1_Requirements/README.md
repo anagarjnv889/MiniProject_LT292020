@@ -1,5 +1,6 @@
 # Requirements
 ## Introduction
+
 1. 
 This Advance Calculator project is designed in ‘C’ language. This system is based on a concept to generate the total sum, subtractions, divisions, multiplications, modulus, hcf, prime, and many more. Also, this System makes it easy to calculate different numbers. Here, the user has to input the numbers and the system will display output. Also, you can see the basic features of the scientific calculator in this project. Moreover, this mini project is easy to operate and understand by the users. 
 
@@ -7,6 +8,7 @@ This Advance Calculator project is designed in ‘C’ language. This system is 
 This topic was chosen because it gives me an opportunity to implement efficient data structures and provides me flexibilty to understand multiple C programming concepts.
 
 ## Research
+
 ![Description](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/Research.png)
 
 
@@ -15,6 +17,7 @@ Advance calculator saves our time, with the help of calculator we can easily cal
 Advance calculators are used widely in any situation where quick access to certain mathematicalfunctions is needed. They are also used in situations requiring back-of-the-envelope calculationsof very large numbers, as in some aspects of astronomy,physics,andchemistry.  
 
 ## Cost and Features
+
 ![Description](Link to Pic)
 1. Standard Calculator functionality which offers basic operations and evaluates commands      immediately as they are entered.
 
@@ -25,9 +28,10 @@ Advance calculators are used widely in any situation where quick access to certa
 4. In case of arithmetic it performs Addition, Subtraction, Multiplication, Division and modulus.
 
 5. In case of advance option it performs HCF, prime, sum of digits, power of a number and factorial of a number.
-## Defining Our System
-![Description](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/flowchar.png)
 
+## Defining Our System
+
+![Description](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/flowchar.png)
 
 
 Advance Calculator Application have few inbuilt features like  
@@ -52,7 +56,9 @@ Create a menu for perform arithmetic operation
 9. Factorial of a number
 
 10. Power of a number
+
 ## SWOT ANALYSIS
+
 ![SWOT-Sample](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/SWOT.jpg)
 
 # 4W&#39;s and 1&#39;H
@@ -79,8 +85,8 @@ The Pascal calculator, invented by French inventor and mathematician Blaise Pasc
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+ 
+
 ID     |  Description  |  Category     |Status(Implemented/Future)     
 -------|---------------|---------------|---------------------------
 HR_01 | Arithematic Operation  | Operation such as +, -, *, /, % | Implemented  
@@ -88,18 +94,19 @@ HR_02 | Advance Operation       | Operation such as HCF/GCD, Prime/Composite, Su
 HR_03 | If we provide wrong input then it gives as a warning and exit | 1 for Yes/ 0 for No | Implemented
 HR_04 | Trigonomety operation   | Sin, Cos, Tan, Coses, Sec, Cot | FUTURE
 
+
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+
+
 ID     |  Description  | Status(Implemented/Future)     
 -------|---------------|---------------------------
 LR_01 | Addition is used to add numbers  | Implemented  
 LR_02 | Subtraction is used to subtract numbers    | Implemented 
 LR_03 | Multiplication is used to multiply numbers | Implemented
-LR_03 | Division is used to Division numbers | Implemented
-LR_03 | Modulus is used to find Modulus of a number | Implemented
-LR_03 | Factorial is used to find factorial of a number | Implemented
-LR_03 | HCF is used to find HCF of numbers | Implemented
-LR_03 | Sum of digit is used to fing the sum of digits of a number | Implemented
-LR_03 | Prime is used to check whether number is prime or not | Implemented
-LR_03 | Power is used to find the power of a number | Implemented
+LR_04 | Division is used to Division numbers | Implemented
+LR_05 | Modulus is used to find Modulus of a number | Implemented
+LR_06 | Factorial is used to find factorial of a number | Implemented
+LR_07 | HCF is used to find HCF of numbers | Implemented
+LR_08 | Sum of digit is used to fing the sum of digits of a number | Implemented
+LR_09 | Prime is used to check whether number is prime or not | Implemented
+LR_10 | Power is used to find the power of a number | Implemented
