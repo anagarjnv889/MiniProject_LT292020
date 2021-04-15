@@ -61,7 +61,9 @@ Create a menu for perform arithmetic operation
 
 ## SWOT ANALYSIS
 
+
 ![SWOT-Sample](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/SWOT.jpg)
+
 
 # 4W&#39;s and 1&#39;H
 
