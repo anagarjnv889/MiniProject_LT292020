@@ -1,8 +1,8 @@
 # Requirements
 ## Introduction
- --- TBD 
 1. 
 This Advance Calculator project is designed in ‘C’ language. This system is based on a concept to generate the total sum, subtractions, divisions, multiplications, modulus, hcf, prime, and many more. Also, this System makes it easy to calculate different numbers. Here, the user has to input the numbers and the system will display output. Also, you can see the basic features of the scientific calculator in this project. Moreover, this mini project is easy to operate and understand by the users. 
+
 2.
 This topic was chosen because it gives me an opportunity to implement efficient data structures and provides me flexibilty to understand multiple C programming concepts.
 
