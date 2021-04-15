@@ -1,14 +1,12 @@
 Requirements
 
 Introduction
-
 1. 
 This Advance Calculator project is designed in ‘C’ language. This system is based on a concept to generate the total sum, subtractions, divisions, multiplications, modulus, hcf, prime, and many more. Also, this System makes it easy to calculate different numbers. Here, the user has to input the numbers and the system will display output. Also, you can see the basic features of the scientific calculator in this project. Moreover, this mini project is easy to operate and understand by the users. 
 2.
 This topic was chosen because it gives me an opportunity to implement efficient data structures and provides me flexibilty to understand multiple C programming concepts.
 
 Research
-
 Features
 1. Standard Calculator functionality which offers basic operations and evaluates commands      immediately as they are entered.
 2. Scientific Calculator functionality which offers expanded operations and evaluates commands using order of operations.
@@ -23,7 +21,38 @@ Advance calculator saves our time, with the help of calculator we can easily cal
 Uses
 Advance calculators are used widely in any situation where quick access to certain mathematicalfunctions is needed. They are also used in situations requiring back-of-the-envelope calculationsof very large numbers, as in some aspects of astronomy,physics,andchemistry. They are very often required for math classes from the junior high school level through college,and are generally either permitted or required on manystandardized testscovering math andscience subjects; as a result, many are sold into educational markets to cover this demand, andsome high-end models include features making it easier to translate the problem on a textbook page into calculator input, from allowing explicitoperator precedenceusing parentheses toproviding a method for the user to enter an entire problem in as it is written on the page usingsimple formatting tools.
 
-Cost and Features
+Defining Our System
+ 
+ 
 
+Explanation
+Advance Calculator Application have few inbuilt features like  
+
+Create a menu for perform arithmetic operation
+Read input from user
+Addition
+Subtraction
+Division
+Multiplication
+HCF/GCD
+Prime
+Sum of digit
+Factorial of a number
+Power of a number
+
+SWOT ANALYSIS
 
  
+
+4W's and 1'H
+
+Who:
+Everyone can use advance calculator.
+What:
+It can perform addition, subtraction, dividion, multiplication, modulus, hcf of two number, sum of digit, prime/composite.
+When:
+Calculator was created in the early 1960s. Pocket-sized devices became available in the 1970s.
+Where:
+The Pascal calculator, invented by French inventor and mathematician Blaise Pascal.
+How:
+The Pascal calculator, invented by French inventor and mathematician Blaise Pascal, was lauded for attempting arithmetic calculations previously thought impossible.
