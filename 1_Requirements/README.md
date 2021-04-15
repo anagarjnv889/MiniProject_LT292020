@@ -7,7 +7,7 @@ This Advance Calculator project is designed in ‘C’ language. This system is 
 This topic was chosen because it gives me an opportunity to implement efficient data structures and provides me flexibilty to understand multiple C programming concepts.
 
 ## Research
-![Description](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/flowchar.png)
+![Description](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/Research.png)
 Advance calculator saves our time, with the help of calculator we can easily calculate addition, subtraction, multiplication, division, modulus, hcf and also check whether the number is prime or not.
 Advance calculators are used widely in any situation where quick access to certain mathematicalfunctions is needed. They are also used in situations requiring back-of-the-envelope calculationsof very large numbers, as in some aspects of astronomy,physics,andchemistry. They are very often required for math classes from the junior high school level through college,and are generally either permitted or required on manystandardized testscovering math andscience subjects; as a result, many are sold into educational markets to cover this demand, andsome high-end models include features making it easier to translate the problem on a textbook page into calculator input, from allowing explicitoperator precedenceusing parentheses toproviding a method for the user to enter an entire problem in as it is written on the page usingsimple formatting tools.
 
@@ -50,7 +50,7 @@ Create a menu for perform arithmetic operation
 
 10. Power of a number
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+![SWOT-Sample](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/SWOT.jpg)
 
 # 4W&#39;s and 1&#39;H
 
