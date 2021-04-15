@@ -84,6 +84,7 @@ The Pascal calculator, invented by French inventor and mathematician Blaise Pasc
 ID     |  Description  |  Category     |Status(Implemented/Future)     
 -------|---------------|---------------|---------------------------
 HR_01 | Arithematic Operations  | Operation such as +, -, *, /, % | Implemented  
+HR_02 | Advance Operation       | Operation such as HCF/GCD, Prime/Composite, Sum of digits, Factorial | Implemented 
 
 ##  Low level Requirements:
 --- TBD in Tabular Format 
