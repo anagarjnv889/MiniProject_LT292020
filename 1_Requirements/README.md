@@ -53,7 +53,7 @@ Create a menu for perform arithmetic operation
 
 7. Prime
 
-8. Sum of digit
+8. Sum of digits of a number
 
 9. Factorial of a number
 
