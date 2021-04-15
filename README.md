@@ -19,15 +19,12 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
-`DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
+292020 | Ajay Kumar Nagar  | HCD, Prime, Sum of digits, Power   | X No     | X No   |X No   |X No      
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
-3. ...
-4. ...
+1. I am working on Vscode Studio for first time. At the starting it is very hard to work on Vscode Studio, but now everything is working well.
+2. I have learnt how to clone, pull, push, and commit the repository on Github.
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
