@@ -30,16 +30,25 @@ Advance calculators are used widely in any situation where quick access to certa
 Advance Calculator Application have few inbuilt features like  
 
 Create a menu for perform arithmetic operation
-Read input from user
-Addition
-Subtraction
-Division
-Multiplication
-HCF/GCD
-Prime
-Sum of digit
-Factorial of a number
-Power of a number
+1. Read input from user
+
+2. Addition
+
+3. Subtraction
+
+4. Division
+
+5. Multiplication
+
+6. HCF/GCD
+
+7. Prime
+
+8. Sum of digit
+
+9. Factorial of a number
+
+10. Power of a number
 ## SWOT ANALYSIS
 ![SWOT-Sample](Link to Pic)
 
