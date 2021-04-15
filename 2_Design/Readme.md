@@ -9,7 +9,7 @@ Structural Diagram
 
 Behavioural Diagram
 
-![HighLevelBehaviouralDiagram](Link to Pic)
+![HighLevelBehaviouralDiagram](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/2_Design/str.png)
 
 Usecase Diagram 
 
@@ -19,8 +19,4 @@ Usecase Diagram
 
 --- TBD Structural and Behavioural Diagram
 ![FeaturesLevelStructuralDiagram](Link to Pic)
-![FeaturesBehaviouralDiagram](Link to Pic)
-
-Usecase Diagram :
-
-![UsecaseDiagram](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/2_Design/usecaselow.jpg)
+![FeaturesBehaviouralDiagram](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/2_Design/usecaselow.jpg)
