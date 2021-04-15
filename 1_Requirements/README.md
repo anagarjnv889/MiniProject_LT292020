@@ -24,6 +24,9 @@ Advance calculators are used widely in any situation where quick access to certa
 5. In case of advance option it performs HCF, prime, sum of digits, power of a number and factorial of a number.
 ## Defining Our System
 ![Description](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/flowchar.png)
+
+
+
 Advance Calculator Application have few inbuilt features like  
 
 Create a menu for perform arithmetic operation
