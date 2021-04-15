@@ -81,7 +81,9 @@ The Pascal calculator, invented by French inventor and mathematician Blaise Pasc
 ## High Level Requirements:
 --- TBD in Tabular Format 
 -- ID | Description | Status (Implemented/Future)
-
+ID     |  Description  |  Category     |Status(Implemented/Future)     
+-------|---------------|---------------|---------------------------
+HR_01 | Arithematic Operations  | Operation such as +, -, *, /, % | Implemented  
 
 ##  Low level Requirements:
 --- TBD in Tabular Format 
