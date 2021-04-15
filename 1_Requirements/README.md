@@ -56,23 +56,23 @@ Create a menu for perform arithmetic operation
 
 ## Who:
 
-**TBD**
+Everyone can use advance calculator.
 
 ## What:
 
-**TBD**
+It can perform addition, subtraction, dividion, multiplication, modulus, hcf of two number, sum of digit, prime/composite.
 
 ## When:
 
-**TBD**
+Calculator was created in the early 1960s. Pocket-sized devices became available in the 1970s.
 
 ## Where:
 
-**TBD**
+The Pascal calculator, invented by French inventor and mathematician Blaise Pascal.
 
 ## How:
 
-**TBD**
+The Pascal calculator, invented by French inventor and mathematician Blaise Pascal, was lauded for attempting arithmetic calculations previously thought impossible.
 
 # Detail requirements
 ## High Level Requirements:
