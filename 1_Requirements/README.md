@@ -18,7 +18,9 @@ Advance calculators are used widely in any situation where quick access to certa
 
 ## Cost and Features
 
-![Description](Link to Pic)
+![Description](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/price.png)
+
+
 1. Standard Calculator functionality which offers basic operations and evaluates commands      immediately as they are entered.
 
 2. Scientific Calculator functionality which offers expanded operations and evaluates commands using order of operations.
