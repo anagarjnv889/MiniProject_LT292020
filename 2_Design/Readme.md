@@ -17,6 +17,16 @@ Usecase Diagram
 
 ## Low Level Design 
 
---- TBD Structural and Behavioural Diagram
-![FeaturesLevelStructuralDiagram](Link to Pic)
-![FeaturesBehaviouralDiagram](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/2_Design/usecaselow.jpg)
+Structural Diagram
+
+![FeaturesLevelStructuralDiagram]( https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/2_Design/ajay.png
+)
+ 
+ Behavioural Diagram
+
+![FeaturesBehaviouralDiagram](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/2_Design/A.jpg )
+ 
+ Usecase Diagram
+
+
+![UsecaseDiagram](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/2_Design/usecaselow.jpg)
