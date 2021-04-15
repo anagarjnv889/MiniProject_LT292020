@@ -22,8 +22,8 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 Serial Number           | Description
 -------------------| -----------------------------------------
-1.   |  I am working on Vscode Studio for first time. At the starting it is very hard to work on Vscode Studio, but now everything is working well.
-2.   | I have learnt how to clone, pull, push, and commit the repository on Github.
+1.   I am working on Vscode Studio for first time. At the starting it is very hard to work on Vscode Studio, but now everything is working well.
+2.   I have learnt how to clone, pull, push, and commit the repository on Github.
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
