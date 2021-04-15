@@ -83,9 +83,23 @@ The Pascal calculator, invented by French inventor and mathematician Blaise Pasc
 -- ID | Description | Status (Implemented/Future)
 ID     |  Description  |  Category     |Status(Implemented/Future)     
 -------|---------------|---------------|---------------------------
-HR_01 | Arithematic Operations  | Operation such as +, -, *, /, % | Implemented  
+HR_01 | Arithematic Operation  | Operation such as +, -, *, /, % | Implemented  
 HR_02 | Advance Operation       | Operation such as HCF/GCD, Prime/Composite, Sum of digits, Factorial | Implemented 
+HR_03 | If we provide wrong input then it gives as a warning and exit | 1 for Yes/ 0 for No | Implemented
+HR_04 | Trigonomety operation   | Sin, Cos, Tan, Coses, Sec, Cot | FUTURE
 
 ##  Low level Requirements:
 --- TBD in Tabular Format 
 -- ID | Description | Status (Implemented/Future)
+ID     |  Description  | Status(Implemented/Future)     
+-------|---------------|---------------------------
+LR_01 | Addition is used to add numbers  | Implemented  
+LR_02 | Subtraction is used to subtract numbers    | Implemented 
+LR_03 | Multiplication is used to multiply numbers | Implemented
+LR_03 | Division is used to Division numbers | Implemented
+LR_03 | Modulus is used to find Modulus of a number | Implemented
+LR_03 | Factorial is used to find factorial of a number | Implemented
+LR_03 | HCF is used to find HCF of numbers | Implemented
+LR_03 | Sum of digit is used to fing the sum of digits of a number | Implemented
+LR_03 | Prime is used to check whether number is prime or not | Implemented
+LR_03 | Power is used to find the power of a number | Implemented
