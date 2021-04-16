@@ -25,7 +25,7 @@
 
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  L_01       | Division|  20, 0|INVALID|INVALID|Boundary based |
+|  L_01       | Division|  20, 0|-1|-1|Boundary based |
 |  L_02       | HCF|  45, 1| 1|1|Scenario based |
 |  L_03       | Power|  20, 2|400|400|Requirement based |
 |  L_04       | Power|  20, 0|1|1|Scenario based |
