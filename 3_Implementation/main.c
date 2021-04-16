@@ -20,7 +20,7 @@ double addsum=0.0;
 int main()
 {
     printf("           ------------------------------------------");
-    printf("\n           WELCOME TO NAGAR'S ADVANCE CALCULATOR");
+    printf("\n           WELCOME TO NAGAR'S ADVANCE CALCULATOR ");
     printf("\n        ------------------------------------------");    
 xy:{
 printf("\nIF YOU WANT TO PERFORM ARITHMATIC OPERATIONS PRESS 1\n");
