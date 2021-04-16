@@ -46,7 +46,7 @@ int main()
   RUN_TEST(test_division);
   RUN_TEST(test_division_byZero);
   RUN_TEST(test_power);
-  RUN_TEST(test_exponent);
+   
   RUN_TEST(test_factorial);
   RUN_TEST(test_zero_factorial);
   RUN_TEST(test_negative_factorial);
