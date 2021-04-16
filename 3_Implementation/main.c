@@ -1,67 +1,87 @@
+/**
+ * @file main.c
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-16
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "head.h"
 #include<stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-int addition(int a);
-int subtraction(int a,int b);
-int multiplication(int a);
-int division(int a,int b);
-int modulus(int a,int b);
-int ARITHMATIC_OPERATION();
-int ADVANCE_OPERATION();
-int factorial(int a);
-long gcd(int a,int b);
-int prime(int a);
-int sumofdigit(int a);
-int sum=0;
-double addsum=0.0; 
-
-int main()
+int addition(int a, int b)
 {
-    printf("           ------------------------------------------");
-    printf("\n           WELCOME TO NAGAR'S ADVANCE CALCULATOR ");
-    printf("\n        ------------------------------------------");    
-xy:{
-printf("\nIF YOU WANT TO PERFORM ARITHMATIC OPERATIONS PRESS 1\n");
-printf("IF YOU WANT TO PERFORM SOME ADVANCE OPERATION PRESS 2\n");
-int choice,x;
-scanf("%d",&choice);
-if(choice>=1 && choice<=2)
+    int sum=0, i=0, num;
+    sum=a+b;
+    return sum;
+}
+ 
+int subtraction(int a,int b)
+{ 
+  int sub=0;
+    
+    sub = a-b; 
+    return sub; 
+}
+ 
+int multiplication(int a,int b)
 {
-    switch(choice)
-    {
-        case 1:
-               ARITHMATIC_OPERATION();
-               break;
-        case 2:
-        {
-            ADVANCE_OPERATION();
-            break;
-        }
-
+    int mul=1; 
+   mul=a*b;
+ 
+     return mul;
     }
-}
-else
+ 
+int division(int a,int b)
 {
-    printf("Enter a valid input");
-     goto xy;
+    int div=0; 
+    div=a/b;
+    return div;
 }
+int modulus(int a,int b)
+{
+    int d=0; 
+     
+    d=a%b;
+     return d;
+   }
+int factorial(int num)
+{
+                 
+    if(num==0 || num==1)
+    {
+        return 1;
+    }
+    return factorial(num-1)*num;
+     
 }
-int x;
-printf("\nDO YOU WANT TO PERFORM SOME MORE OPERATION ?? (Yes=1/No=0) \n");
- scanf("%d",&x);
- if(x==1)
- {
-    goto xy;
- }
- else
- {
-printf("\nTHANK YOU \n");
- }
+int gcd(int a,int b) {
+   int gcd=1;
+   for(int i=0;i<=a && i<=b;i++)
+   {
+    if(a%i==0 && b%i==0)
+    {
+      gcd=i;
+    }
+   }
+   return gcd;
 }
-//end of main
 
+int sumofdigit(int num)
+{
+    int sum=0;
+    while(num>0)
+    {
+        int rem=num%10;
+        sum+=rem;
+        num=num/10;
+    }
+    return sum;
+}
 int ARITHMATIC_OPERATION()
 {
     int n;
@@ -74,10 +94,10 @@ int ARITHMATIC_OPERATION()
  switch(n){
  case 1:
  {
-  int n;
-  printf("\nEnter the number of elements you want to add -> \n");
-  scanf("%d",&n);
-    printf("Sum of %d numbers is -> %d \n",n,addition(n));
+   int a,b;
+   printf("\n Enter two number");
+   scanf("%d %d",&a,&b);
+    printf("Sum of numbers is -> %d \n",addition(a,b));
      break;
  }
  case 2:
@@ -92,11 +112,12 @@ int ARITHMATIC_OPERATION()
  }
  case 3:
  {
-  int n;
-    printf("\nEnter the number of elements you want to add -> \n");
-    scanf("%d",&n);
-     
-    printf("Multiplication of %d numbers is -> %d \n",n,multiplication(n));
+  int n1,n2;
+    printf("\nEnter first number  -> \n"); 
+    scanf("%d", &n1); 
+    printf("\nEnter second number -> \n"); 
+    scanf("%d", &n2); 
+    printf("Multiplication of numbers is -> %d \n",multiplication(n1,n2));
      break;
  }
  case 4:
@@ -178,42 +199,10 @@ printf("IF YOU WANT TO FIND SUM OF DIGITS OF A NUMBER PRESS 5 ->\n");
     scanf("%d",&a);
     printf("\nENTER SECOND NUMBER ->\n");
     scanf("%d",&b);
-    printf("HCF of %d and %d is ->%ld",a,b,gcd(a,b));
+    printf("HCF of %d and %d is ->%d",a,b,gcd(a,b));
      break;
  }
  case 3:
- {
-    int p;
-    printf("\nENTER A NUMBER TO CHECK WHEATHER PRIME/COMPOSITE -> \n");
-    scanf("%d",&p);
-    if(p<0)
-    {
-      printf("\nEnter a valid input");
-    }
-    else if(p==0)
-    {
-      printf("\n Zero is neither prime nor composite");
-    }
-    else if(p==1)
-    {
-      printf("\n %d IS NOT A PRIME NUMBER  ",p);
-    }
-    else
-    {
-    int flag=prime(p);
-    if(flag==1)
-    {
-        printf("\n%d IS A PRIME NUMBER \n",p);
-    }
-    else
-    {
-        printf("%d IS NOT A PRIME NUMBER\n",p);
-    }
-  }
-     break;
-    
- }
- case 4:
  {
     int po,num, powerresult;
     printf("\nEnter two numbers to find the power \n");
@@ -225,7 +214,7 @@ printf("IF YOU WANT TO FIND SUM OF DIGITS OF A NUMBER PRESS 5 ->\n");
     printf("\n%d to the power %d = %d \n",po,num,powerresult);
      break;
  }
- case 5:
+ case 4:
  {
     printf("\nENTER A NUMBER TO FIND THE SUM OF ITS DIGIT \n");
     int digit;
@@ -242,90 +231,47 @@ printf("IF YOU WANT TO FIND SUM OF DIGITS OF A NUMBER PRESS 5 ->\n");
 }
 }
 
-int addition(int n)
-{
-    int sum=0, i=0, num;
-    printf("\nEnter %d numbers one by one -> \n",n);
-    while(i<n)
-    { 
-        scanf("%d",&num);
-        sum=sum+num;
-        i=i+1;
-    }
-    return sum;
-}
  
-int subtraction(int a,int b)
-{ 
-  int sub=0;
-    
-    sub = a-b; 
-    return sub; 
-}
- 
-int multiplication(int n)
+int main()
 {
-    int num, mul=1,i=0; 
-   
- printf("\nEnter %d numbers one by one -> \n",n);
-    while(i<n)
-    { 
-        scanf("%d",&num);
-        mul*=num;
-        i=i+1;
-    }
-     return mul;
-    }
- 
-int division(int a,int b)
+    printf("           ------------------------------------------");
+    printf("\n           WELCOME TO NAGAR'S ADVANCE CALCULATOR");
+    printf("\n        ------------------------------------------");    
+xy:{
+printf("\nIF YOU WANT TO PERFORM ARITHMATIC OPERATIONS PRESS 1\n");
+printf("IF YOU WANT TO PERFORM SOME ADVANCE OPERATION PRESS 2\n");
+int choice,x;
+scanf("%d",&choice);
+if(choice>=1 && choice<=2)
 {
-    int div=0; 
-    div=a/b;
-    return div;
-}
-int modulus(int a,int b)
-{
-    int d=0; 
-     
-    d=a%b;
-     return d;
-   }
-int factorial(int num)
-{
-                 
-    if(num==0 || num==1)
+    switch(choice)
     {
-        return 1;
+        case 1:
+               ARITHMATIC_OPERATION();
+               break;
+        case 2:
+        {
+            ADVANCE_OPERATION();
+            break;
+        }
+
     }
-    return factorial(num-1)*num;
-     
 }
-long gcd(int a,int b) {
-  if (b == 0)
-    return a;
-  else
-    return gcd(b, a % b);
-}
-int prime(int num)
-{           
-     int f=1;
-     for(int i=2;i<sqrt(num);i++)
-     {
-         if(num%i==0)
-         {
-             f=0;
-         }
-     }
-     return f;  
-}
-int sumofdigit(int num)
+else
 {
-    
-    while(num>0)
-    {
-        int rem=num%10;
-        sum+=rem;
-        num=num/10;
-    }
-    return sum;
+    printf("Enter a valid input");
+     goto xy;
+}
+}
+int x;
+printf("\nDO YOU WANT TO PERFORM SOME MORE OPERATION ?? (Yes=1/No=0) \n");
+ scanf("%d",&x);
+ if(x==1)
+ {
+    goto xy;
+ }
+ else
+ {
+printf("\nTHANK YOU \n");
+ }
 }

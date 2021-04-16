@@ -8,94 +8,78 @@
  * @copyright Copyright (c) 2021
  * 
  */
+
 #ifndef __head_H__
 #define __head_H__
 #include <stdio.h>
 #include <math.h>
 #include<stdlib.h>
-/**
- * @brief 
- * 
- */
-typedef struct ajay{
-    int a;
-    int b;
-}ajay;
- 
-/**
- * @brief 
- * 
- */
-typedef struct ajay1{
-    int n;
-}ajay1;
  /**
   * @brief 
   * 
-  * @param nagar 
+  * @param a 
+  * @param b 
   * @return int 
   */
-int addition(ajay *nagar);
+int addition(int a,int b);
 /**
  * @brief 
  * 
- * @param nagar 
+ * @param a 
+ * @param b 
  * @return int 
  */
-int subtraction(ajay *nagar);
+int subtraction(int a,int b);
 /**
  * @brief 
  * 
- * @param nagar 
+ * @param a 
+ * @param b 
  * @return int 
  */
-int multiplication(ajay *nagar);
+int multiplication(int a,int b);
 /**
  * @brief 
  * 
- * @param nagar 
+ * @param a 
+ * @param b 
  * @return int 
  */
-int division(ajay *nagar);
+int division(int a,int b);
 /**
  * @brief 
  * 
- * @param nagar 
+ * @param a 
+ * @param b 
  * @return int 
  */
-int modulus(ajay *nagar);
+int modulus(int a,int b);
 /**
  * @brief 
  * 
- * @param nagar 
+ * @param a 
+ * @param b 
  * @return int 
  */
-int gcd(ajay *nagar);
+int gcd(int a,int b);
 /**
  * @brief 
  * 
- * @param nagar 
+ * @param a 
  * @return int 
  */
-int power(ajay *nagar);
+int factorial(int a);
 /**
  * @brief 
  * 
- * @param nagar1 
+ * @param a 
  * @return int 
  */
-int factorial(ajay1 *nagar1);
+int sumofdigit(int a);
+
 /**
  * @brief 
  * 
- * @param nagar1 
- * @return int 
  */
 
-int sumofdigit(ajay1 *nagar1);
- 
 #endif
-/**
- * @End
- * 
- */
