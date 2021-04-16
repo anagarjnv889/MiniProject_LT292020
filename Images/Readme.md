@@ -1,24 +1,24 @@
 # Images
-## Addition and Subtraction
+## Addition and Subtraction of Numbers
 
-![Image](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/Research.png)
+![Image](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/Images/img1.png)
 
-## Multiplication and Division
+## Multiplication and Division of Numbers
 
-![Image](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/Research.png)
+![Image](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/Images/img2.png)
 
-## Modulus and Factorial
+## Modulus and Factorial of Numbers
 
-![Image](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/Research.png)
+![Image](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/Images/img3.png)
 
-## HCF and Prime
+## HCF and Prime of Numbers
 
-![Image](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/Research.png)
+![Image](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/Images/img4.png)
 
-## Power
+## Power of a Number
 
-![Image](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/Research.png)
+![Image](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/Images/img5.png)
 
-## Sun of digits
+## Sum of digits of a Number
 
-![Image](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/1_Requirements/Research.png)
+![Image](https://github.com/anagarjnv889/MiniProject_LT292020/blob/master/Images/img6.png)
