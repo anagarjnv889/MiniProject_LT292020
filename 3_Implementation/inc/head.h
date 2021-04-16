@@ -42,7 +42,6 @@ int addition(ajay *nagar);
  * @param nagar 
  * @return int 
  */
- 
 int subtraction(ajay *nagar);
 /**
  * @brief 
