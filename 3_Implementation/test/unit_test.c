@@ -18,7 +18,7 @@ ajay1 testf1={0};
 ajay1 testf2={-5}; /* negative number input  */
 /* Prototypes for all the test functions */
 void test_addition(void);
-void test_substraction(void);
+void test_subtraction(void);
 void test_multiplication(void);
 void test_division(void);
   
@@ -41,7 +41,7 @@ int main()
 
 /* Run Test functions */
   RUN_TEST(test_addition);
-  RUN_TEST(test_substraction);
+  RUN_TEST(test_subtraction);
   RUN_TEST(test_multiplication);
   RUN_TEST(test_division);
   RUN_TEST(test_division_byZero);
@@ -61,8 +61,8 @@ void test_addition(void) {
    TEST_ASSERT_EQUAL(-5,addition(&testcal1)); /* negative number input case  */
    }
 void test_substraction(void) {
-  TEST_ASSERT_EQUAL(5,substraction(&testcal));
-  TEST_ASSERT_EQUAL(-1,substraction(&testcal1)); /* negative number input case  */
+  TEST_ASSERT_EQUAL(5,subtraction(&testcal));
+  TEST_ASSERT_EQUAL(-1,subtraction(&testcal1)); /* negative number input case  */
 }
 void test_multiplication(void) {
   TEST_ASSERT_EQUAL(50,multiplication(&testcal));

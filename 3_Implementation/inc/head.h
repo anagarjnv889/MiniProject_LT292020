@@ -43,7 +43,7 @@ int addition(ajay *nagar);
  * @return int 
  */
  
-int substraction(ajay *nagar);
+int subtraction(ajay *nagar);
 /**
  * @brief 
  * 
