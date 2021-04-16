@@ -136,11 +136,11 @@ int factorial(ajay1 *nagar1)
         return 1;
     }
     long long int f=1;
-    for(int i=1;i<= nagar->n;i++)
+    for(int i=1;i<= nagar1->n;i++)
     {
         f=f*i;
     }
-    return fact;
+    return f;
 }
 /**
  * @brief 
@@ -154,7 +154,7 @@ int sumofdigit(ajay1 *nagar1)
     while((nagar1->n) > 0)
     {
         int rem=(nagar1->n)%10;
-        sum+=rem;
+        ans+=rem;
     nagar1->n=(nagar1->n)/10;
     }
     return ans;
