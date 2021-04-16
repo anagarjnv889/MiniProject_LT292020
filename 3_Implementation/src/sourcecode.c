@@ -54,7 +54,7 @@ int multiplication(ajay *nagar)
  */
 int subtraction(ajay *nagar)
 {
-    int ans=(nagar->a)-(nagar->b);
+    int ans=nagar->a - nagar->b;
     return ans;
 }
 /**
