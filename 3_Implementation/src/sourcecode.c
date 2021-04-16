@@ -91,7 +91,7 @@ int modulus(ajay *nagar)
 
     }
     else{
-        Printf("\nEnter a valid input!!!! Divisor can not be zero\n");
+        printf("\nEnter a valid input!!!! Divisor can not be zero\n");
         return -1;
     }
 }
