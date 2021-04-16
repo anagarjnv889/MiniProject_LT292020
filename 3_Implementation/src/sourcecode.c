@@ -30,7 +30,7 @@ int addition(ajay *nagar)
  * @param nagar 
  * @return int 
  */
-int subtraction(ajay *nagar)
+int substraction(ajay *nagar)
 {
     int ans=(nagar->a)-(nagar->b);
     return ans;
