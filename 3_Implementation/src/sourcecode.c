@@ -1,4 +1,13 @@
-#include<stdio.h>
+/**
+ * @file sourcecode.c
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-16
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
@@ -201,7 +210,6 @@ printf("IF YOU WANT TO FIND SUM OF DIGITS OF A NUMBER PRESS 5 ->\n");
 }
 }
 
-void addition(int n)
 {
     int sum=0, i=0, num;
     printf("\nEnter %d numbers one by one -> \n",n);
