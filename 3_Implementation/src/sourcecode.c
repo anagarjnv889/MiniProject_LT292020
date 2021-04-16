@@ -11,6 +11,7 @@
 #include "head.h"
 #include <stdlib.h>
 #include <string.h>
+#include<stdio.h>
 #include <math.h>
 /**
  * @brief 
