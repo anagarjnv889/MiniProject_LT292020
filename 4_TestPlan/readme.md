@@ -9,7 +9,7 @@
 |  H_03       |Subtraction|  25, 75| -50 | -50 |Scenario based  |
 |  H_04       |Multiplication|  2, 5| 10 | 10 |Requirement based |
 |  H_05       |Division|  100, 5| 20 | 20 |Requirement based |
-|  H_06       |Division|  100, 0| INVALID | INVALID |Boundary based |
+|  H_06       |Division|  100, 0| -1 | -1 |Boundary based |
 |  H_07       |HCF| 63,81| 9 | 9 |Requirement based |
 |  H_08       |HCF| 63, 0| 63 | 63 |Scenario based |
 |  H_09       |Factorial|  5 | 120 | 120 |Requirement based |
@@ -32,7 +32,7 @@
 |  L_05       | Power|  0, 4|0|0|Boundary based |
 |  L_06       | Sum of Digits |  145|10|10|Requirement based |
 |  L_07       | Division|  0, 1|0|0|Scenario based |
-|  L_08       | Prime|  -9|INVALID|INVALID|Requirement based |
+|  L_08       | Prime|  -9|-1|-1|Requirement based |
 |  L_09       | Sum of digits|  0|0|0|Boundary based |
 |  L_10       | HCF|  2, 4|2|2|Requirement based |
  
