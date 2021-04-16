@@ -21,7 +21,7 @@ void test_addition(void);
 void test_substraction(void);
 void test_multiplication(void);
 void test_division(void);
- 
+  
 void test_factorial(void);
 void test_zero_factorial(void);
 void test_negative_factorial(void);
